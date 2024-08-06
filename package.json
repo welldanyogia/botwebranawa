@@ -1,11 +1,11 @@
 {
-  "name": "Gemtech Project",
+  "name": "Webrana Store Project",
   "version": "10.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node startWithInput.js"
+    "start": "node index.js"
   },
   "author": "VallzOfficial.",
   "license": "MIT",
@@ -52,7 +52,6 @@
     "request": "^2.88.2",
     "spinnies": "^0.5.1",
     "util": "^0.12.5",
-    "whatsapp-web.js": "^1.22.1",
-    "expect": "^29.0.0"
+    "whatsapp-web.js": "^1.22.1"
   }
 }
