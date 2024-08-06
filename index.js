@@ -95,7 +95,8 @@ auth: state,
 browser: [ "Ubuntu", "Chrome", "20.0.04" ]
 });
 if(usePairingCode && !client.authState.creds.registered) {
-		const phoneNumber = await question(color(`\n\nMasukan Nomor :\n`, 'white'));
+		// const phoneNumber = await question(color(`\n\nMasukan Nomor :\n`, 'white'));
+		const phoneNumber = global.nomerBot
 		const code = await client.requestPairingCode(phoneNumber.trim())
 		console.log(color(`⚠︎ Kode Pairing Bot Whatsapp kamu :`,"gold"), color(`${code}`, "white"))
 
