@@ -53,6 +53,6 @@
     "spinnies": "^0.5.1",
     "util": "^0.12.5",
     "whatsapp-web.js": "^1.22.1",
-    "expect": "^29.0.0",
+    "expect": "^29.0.0"
   }
 }
